@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>首页</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	   *{
+	    	margin: 0;
+	    	padding: 0;	    
+	    }
+	    a{
+	    	text-decoration: none;
+	    	color: #000;
+	    }
+ 	 	.top{
+ 	 		height: 30px;
+ 	 		background-color: #f4f4f4;
+ 	 	}
+ 	 	.top li{
+ 	 		list-style-type: none;
+ 	 		font-size: 12px;
+ 	 		display: inline-block;
+ 	 	}
+ 	 	.left{
+ 	 		float: left;
+ 	 		padding-left: 181px;
+ 	 	}
+ 	 	.right{
+ 	 		float: right;
+ 	 		padding-right: 180px;
+ 	 	}
+ 	 	.logo{
+ 	 		padding-left: 181px;
+ 	 		padding-top: 20px;
+ 	 	}
+ 	 	.logo img{
+ 	 		float: left;
+ 	 	}
+ 	 	.nav{
+ 	 		height: 118px;
+ 	 		background-color: #ffffff;
+ 	 	}
+ 	 	.search{
+ 	 		margin-left: 200px;
+ 	 		margin-top: 25px;
+ 	 		border: 2px solid #f83838;
+ 	 		height: 40px;
+ 	 		width: 500px;
+ 	 		float: left;
+ 	 	}
+ 	 	.search p{
+ 	 		color: #778ca2;
+ 	 		float: left;
+ 	 		padding-top: 9px;
+ 	 		padding-left: 10px;
+ 	 	}
+ 	 	.sc{
+ 	 		width: 94px;
+ 	 		height: 41px;
+ 	 		margin-right: -1px;
+ 	 		background-color: #f83838;
+ 	 		float: right;
+ 	 	}
+ 	 	.sc p{
+ 	 		font-size: 16px;
+ 	 		color: #ffffff;
+ 	 		padding-left: 33px;
+ 	 	}
+ 	 	.shop{
+ 	 		width: 150px;
+ 	 		height: 40px;
+ 	 		background-color: #f5f5f5;
+ 	 		float: right;
+ 	 		margin-right: 180px;
+ 	 		margin-top: 25px;
+ 	 	}
+ 	 	.shop p{
+ 	 		display: inline-block;
+ 	 	}
+ 	 	.orange{
+ 	 		color: #f13a3a;
+ 	 	}
+ 	 	.menu{
+ 	 		height: 42px;
+ 	 		border-bottom: 3px solid #fd0304;
+ 	 	}
+ 	 	.menu li{
+ 	 		height: 35px;
+ 	 		width: 90px;
+ 	 		font-size: 15px;
+ 	 		list-style-type: none;
+ 	 		display: inline-block;
+ 	 		margin-left: 210px;
+ 	 	}
+ 	 	.menu a{
+ 	 		
+ 	 	}
+ 	 	.menu li:hover{
+ 	 		border-radius: 4px 4px 4px 4px;
+ 	 		background-color: #fd0304;
+ 	 	}
+ 	 	.menu p:hover{
+ 	 		color: #ffffff;
+ 	 	}
+ 	 	.menu p{
+ 	 		padding-left: 28px;
+ 	 		padding-top: 8px;
+ 	 	}
+ 	 	.main{
+ 	 		background-color: #fbfbfb;
+ 	 	}
+ 	 	.place p{
+ 	 		padding-left: 181px;
+ 	 		padding-top: 22px;
+ 	 		color: #8a8a8a;
+ 	 	}
+ 	 	.picture{
+ 	 		padding-left: 181px;
+ 	 		padding-top: 28px;
+ 	 		width: 215px;
+ 	 		height: 563px;
+ 	 	}
+ 	 	.sort{
+ 	 		width: 215px;
+ 	 		height: 43px;
+ 	 		background-color: #ffffff;
+ 	 		float: left;
+ 	 	}
+ 	 	.sort img{
+ 	 		padding-left: 31px;
+ 	 		padding-top: 5px;
+ 	 		float: left;
+ 	 	}
+ 	 	.sort p{
+ 	 		padding-left: 21px;
+ 	 		padding-top: 10px;
+ 	 		color: #494949;
+ 	 		font-size: 16px;
+ 	 		float: left;
+ 	 	}
+ 	 	.necess{
+ 	 		margin-top: 15px;
+ 	 		background-color: #ffffff;
+ 	 		width: 215px;
+ 	 		height: 510px;
+ 	 		float: left;
+ 	 	}
+ 	 	.necess li{
+ 	 		padding-top: 20px;
+ 	 		padding-left: 50px;
+ 	 		list-style-type: none;
+ 	 		margin: 30px;
+ 	 		font-size: 14px;
+ 	 	}
+ 	 	.food{
+ 	 		color: #ff584d;
+ 	 	}
+ 	 	.you{
+ 	 		width: 973px;
+ 	 		height: 563px;
+ 	 		background-color: #ffffff;
+ 	 		margin-left: 225px;
+ 	 	}
+ 	 	.shang img{
+ 	 		border: 1px solid #dbdbdb;
+ 	 		margin-right: 15px;
+ 	 		margin-top: -10px;
+ 	 		float: right;
+ 	 		height: 253px;
+ 	 		width: 222px;
+ 	 	}
+ 	 	.xia img{
+ 	 		border: 1px solid #dbdbdb;
+ 	 		height: 253px;
+ 	 		width: 222px;
+ 	 		float: right;
+ 	 		margin-right: 15px;
+ 	 		margin-top: 18px;
+ 	 	}
+ 	 	.bottom{
+ 	 		height: 152px;
+ 	 		background-color: #2e2e2e;
+ 	 		margin-top: 25px;
+ 	 		padding-top: 10px;
+ 	 	}
+ 	 	.bottom ul{
+ 	 		padding-left: 181px;
+ 	 		list-style-type: none;
+ 	 		float: left;
+ 	 	}
+ 	 	.bottom li{
+ 	 		color: #ffffff;
+ 	 	}
+ 	 	.small{
+ 	 		padding-top: 20px;
+ 	 		font-size: 14px;
+ 	 	}
+ 	 	.big{
+ 	 		font-size: 16px;
+ 	 	}
+ 	 	.give{
+ 	 		margin-left: 300px;
+ 	 	}
+ 	 	.book{
+ 	 		margin-left: 300px;
+ 	 	}
+ 	 	.service{
+ 	 		margin-left: 300px;
+ 	 	}
+ 	 	.last{
+ 	 		height: 98px;
+ 	 		background-color: #2e2e2e;
+ 	 		border: 1px solid #454545;
+ 	 	}
+ 	 	.last p{
+ 	 		padding-left: 507px;
+ 	 		padding-top: 25px;
+ 	 		color: #a4a4a4;
+ 	 	}
+	</style>
+</head>
+<body>
+ 	<div class="top">
+ 	 	<ul class="left">
+ 	 	 	<li>我的收藏</li>
+ 	 	 	<li>E族之家手机版</li>
+ 	 	 	<li><img src="https://i.loli.net/2019/06/11/5cff89be8eb9e30867.jpg" alt="qq"></li>
+ 	 	 	<li>328203328</li>
+ 	 	</ul>
+ 	 	<ul class="right">
+ 	 	 	<li>扫描加入</li>
+ 	 	 	<li>欢迎来到E族之家，</li>
+ 	 	 	<li><a href="#">请登录</a></li>|
+ 	 	 	<li><a href="#">注册</li>
+ 	 	</ul>
+ 	</div>
+ 	<div class="nav">
+ 	 	<div class="logo"><img src="https://i.loli.net/2019/06/11/5cff8969c9b4312802.png" alt="logo"></div>
+ 	 	<div class="search">
+ 	 	 	<p>请输入关键词!</p>
+ 	 	 	<div class="sc"><p>搜索</p></div>
+ 	 	</div>
+ 	 	<div class="shop">
+ 	 	 	<img src="https://i.loli.net/2019/06/11/5cff89d8822da15024.png" alt="shop">
+ 	 	 	<p>购物车（</p><p class="orange">0</p><p>）件</p>
+ 	 	</div>
+ 	</div>
+ 	<div class="menu">
+ 	 	<ul>
+ 	 	<li><p>首页</p></li>
+ 	 	<li><p>E族生活</p></li>
+ 	 	<li><p>E族服务</p></li>
+ 	 	<li><p>E族爱心</p></li>
+ 	 	</ul>
+ 	</div>
+ 	<div class="main">
+ 	 	<div class="place">
+ 	 	 	<p>当前位置：E族爱心>食品</p>
+ 	 	</div>
+ 	 	<div class="picture">
+ 	 	 	<div class="zuo">
+ 	 	 	 	<div class="sort">
+ 	 	 	 	 	<img src="https://i.loli.net/2019/06/11/5cff89fa5d3e577488.png" alt="sort">
+ 	 	 	 	 	<p>全部分类</p>
+ 	 	 	 	</div>
+ 	 	 	 	<div class="necess">
+ 	 	 	 	 	<ul>
+ 	 	 	 	 	 	<li class="food"><p>>食品</p></li>
+ 	 	 	 	 	 	<li class="daily"><p>>生活用品</p></li>
+ 	 	 	 	 	</ul>
+ 	 	 	 	</div>
+ 	 	 	</div>
+ 	 	 	<div class="you">
+ 	 	 	 	<div class="shang">
+ 	 	 	 	 	<img src="https://i.loli.net/2019/06/11/5cff88e6b445327839.jpg" alt="辣椒">
+ 	 	 	 	 	<img src="https://i.loli.net/2019/06/11/5cff88b9ac72e38433.jpg" alt="百香果">
+ 	 	 	 	 	<img src="https://i.loli.net/2019/06/11/5cff888eb762444755.jpg" alt="啤酒1">
+ 	 	 	 	 	<img src="https://i.loli.net/2019/06/11/5cff8869be43863109.jpg" alt="啤酒2">
+ 	 	 	 	</div>
+ 	 	 	 	<div class="xia">
+ 	 	 	 	 	<img src="https://i.loli.net/2019/06/11/5cff88e6b445327839.jpg" alt="辣椒">
+ 	 	 	 	 	<img src="https://i.loli.net/2019/06/11/5cff88b9ac72e38433.jpg" alt="百香果">
+ 	 	 	 	 	<img src="https://i.loli.net/2019/06/11/5cff888eb762444755.jpg" alt="啤酒1">
+ 	 	 	 	 	<img src="https://i.loli.net/2019/06/11/5cff8869be43863109.jpg" alt="啤酒2">
+ 	 	 	 	</div>
+ 	 	 	</div>
+ 	 	</div>
+ 	</div>
+ 	<div class="bottom">
+ 	 	<div class="new"><ul>
+ 	 	 	<li class="big">新手上路</li>
+ 	 	 	<li class="small">售后流程</li>
+ 	 	 	<li class="small">购物流程</li>
+ 	 	 	<li class="small">订购方式</li>
+ 	 	</ul></div>
+ 	 	<div class="give"><ul>
+ 	 	 	<li class="big">配送方式</li>
+ 	 	 	<li class="small">货到付款区域</li>
+ 	 	 	<li class="small">配送支付查询</li>
+ 	 	 	<li class="small">支付方式说明</li>
+ 	 	</ul></div>
+ 	 	<div class="book"><ul>
+ 	 	 	<li class="big">购物指南</li>
+ 	 	 	<li class="small">常见问题</li>
+ 	 	 	<li class="small">订购流量</li>
+ 	 	 	<li class="small">注册新会员</li>
+ 	 	</ul></div>
+ 	 	<div class="service"><ul>
+ 	 	 	<li class="big">售后服务</li>
+ 	 	 	<li class="small">退换货原则</li>
+ 	 	 	<li class="small">售后服务保证</li>
+ 	 	 	<li class="small">换货流程</li>
+ 	 	</ul></div>
+ 	 	<div class="about"><ul>
+ 	 	 	<li class="big">关于我们</li>
+ 	 	 	<li class="small">网络故障报告</li>
+ 	 	 	<li class="small">联系我们</li>
+ 	 	 	<li class="small">投诉与建议</li>
+ 	 	</ul></div>
+ 	</div>
+ 	<div class="last">
+ 	 	<p>E族生活  |  居家维修保养  |  住宿优惠信息  |  出行接送  |  E族活动  |  E族爱心  |  积分商城 </p>
+ 	 	<p>© 2017-2018  E族之家  版权所有，并保留所有权利。ICP备案证书号：粤ICP备17127392号 </p>
+ 	</div>
+</body>
+</html>
